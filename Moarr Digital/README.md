@@ -1,6 +1,6 @@
 # Logic Gate LEDs
 
-For my circuit, I wanted to use logic gates to help light up my LEDs. I wanted to come up with something a little more interesting than just having the buttons directly connected to each LED and light them up that way. I had two different colored LEDs, red and yellow, to indicate the different logic gates. Both of the buttons were inputs, the red LED was hooked up to an OR gate, and the yellow LED was hooked up to an AND gate. If one or both of the buttons were pressed, the red LED would light up, and if both of the buttons were pressed, the yellow LED would light up. Very simple logic gates but interesting nonetheless. Below is a diagram of what the logic gates look like.
+For my circuit, I wanted to use logic gates to help light up my LEDs. I wanted to come up with something a little more interesting than just having the buttons directly connected to each LED and light them up that way. I had two different colored LEDs, red and yellow, to indicate the different logic gates. Both of the buttons were inputs, the red LED was hooked up to an OR gate, and the yellow LED was hooked up to an AND gate. If one or both of the buttons were pressed, the red LED would light up, and if both of the buttons were pressed, the yellow LED would light up. Very simple logic gates but interesting nonetheless. Below is a diagram of what the logic gates look like, where the pointed shape is the OR gate and the rounded shape is an AND gate.
 
 ![LED Logic Gates](moarr_digital_logic_gates.png)
 
