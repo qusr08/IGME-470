@@ -1,6 +1,6 @@
 # Piano Staircase Initiative!
 
-![Piano Staircase](piano-staircase.png)
+![Piano Staircase](images/piano-staircase.png)
 
 **Can we get more people to choose the stairs by making it fun to do?**
 
@@ -11,6 +11,6 @@
 > Overall, the experiment was to prove that by making an everyday task fun, more people will do it. Making stairs more interesting to walk up has a very significant effect on how many people walk up them. Volkswagen found that more than 66% of people used the piano stairs more than the regular stairs before.
 
 ### Before
-![Piano Staircase Before](piano-staircase-escalator.png)
+![Piano Staircase Before](images/piano-staircase-escalator.png)
 ### After
-![Piano Staircase After](piano-staircase-stairs.png)
+![Piano Staircase After](images/piano-staircase-stairs.png)
