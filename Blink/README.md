@@ -9,7 +9,7 @@
 > For my project, I wanted to make my own Simon Says game. I believe that the experience I have created using my Arduino is reflective of what I set out to do.
 
 ## Demo Video
-[Insert demo video here]
+> [IGME-470 P1 Blink Demo](https://www.youtube.com/watch?v=p_PmPcwIEJs): A demonstration with some commentary about how my project functions
 
 ## How It's Done
 > I started my project by figuring out how to wire everything together. I understand that I could have used one LED for each color to greatly simplify the wiring, but I liked the aesthetic more of having 4 for each color and wanted a bit of a challenge. In the end, I figured out how to hook up all four LEDs of one color to one digital output! This greatly simplified the programming, and I was able to do it in a way that uses fewer wires than if I were to hook all 16 of the LEDs to separate digital outputs. A schematic of the circuit is shown below. 
