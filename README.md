@@ -24,3 +24,13 @@ Goal: Show that you can make a simple interactive system with physical controls 
 * circuit diagram/schematic
 * code or link to code
 * citation/s of any inspired-by work and clutch technical references
+
+### Move
+Goal: Craft a system with novel sensor inputs to create a transistor-enabled poetic experience. You can use whatever materials you have on hand to create/costume inputs and outputs. Concept coherence is crucial. You should use novel sensor/s for input (not just a potentiometer or premade buttons or switches), transistor/s to control motor (unless the motor is a servo), fan, or flocks of LEDs, as well as serial communication to a theme-consistent on-screen app to help set the scene for your poetic design. Your blog post (appropriate for general audiences) should include:
+* statement of experience goal
+* summary descriptive text
+* narrative, issues, discoveries, results
+* Process & result photos and video/s. Any video (with title and credits) should be linked and embedded in the blog post.
+* code or link to code
+* circuit diagram/schematic
+* citation/s of any inspired-by work and clutch technical references
