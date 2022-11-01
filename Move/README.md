@@ -14,13 +14,15 @@
 > VIDEO
 
 ## How It's Done
-> 
+> I used Unity to display my desired effect and a distance sensor on an Arduino to add interactivity. As the user moves their hand closer and further away from the distance sensor, a collider I call "the human touch" in Unity mimics the movement and moves back and forth as well. The Arduino communicates only a single value to Unity, which is the distance sensor reading. The human touch interacts with falling "water droplets" in the form on cubes. When a water droplet intersects the human touch, it immediately turns to trash and is propelled away, knocking around the otherwise free-flowing water. Water droplets and trash both do not collide with themselves, but collide with each other. This demonstrates that humans and nature are two separate systems that are battling for the same area. The human touch disrupts the waterfall, similarly to how humans disrupt nature. The mechanics behind the project are not complex at all, but I was definitely more focussed on the poetic message behind the project rather than making something programmatically interesting.
 
 ## Circuit Schematic
 ![Circuit Schematic](the_human_touch_bb.png)
 
 ## Problems Encountered
-> 
+> The largest problem I encountered was lag between data being collected by the Arduino and Unity receiving the data. If the Arduino was sending too much data at too fast of a rate, Unity wouldn't be able to keep up and it would lag behind, making the placement of the the human touch not responsive. In addition to that, I am spawning hundreds of objects in Unity to make the waterfall effect, which lags the game engine if not optimized. To fix the Unity problem, I made it so only certain objects collide with each other and tried to calculate as many values as I could beforehand so it wasn't taking up processing power as the game was running. To fix the Arduino problem, I slowed down the Arduino loop method by adding a delay function call. I'm still not sure if it is the best way to solve the problem, or if this solution will work on other faster computers than mine, but for the sake of showing the project it works just fine.
+
+> A minor issue I also ran into was removing "faulty" values in the distance sensor. The distance sensor is not perfect and these faulty values would cause the human touch to move all over the screen spastically, making it not very responsive. To fix this I simply added a range check in the Arduino loop method that only sends a distance value that is inside a specified range. This way I can map the human touch to the width of my computer screen to have it look even more responsive than it was before!
 
 ## Resources
 > [Fritzing](https://fritzing.org/): Used for making the schematic of the circuit
