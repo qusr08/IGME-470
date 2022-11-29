@@ -34,3 +34,14 @@ Goal: Craft a system with novel sensor inputs to create a transistor-enabled poe
 * code or link to code
 * circuit diagram/schematic
 * citation/s of any inspired-by work and clutch technical references
+
+### Game Challenge
+Incorporate 2 from:
+* Sponge
+* Window sill
+* Stapler
+* Dancing toy
+* Mug
+* Toaster
+
+...and pitch a physical computing-ish game (teams are okay). All pitchers should blog it (naming your teammates) and link the blog post here.
